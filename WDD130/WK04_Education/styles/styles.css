@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
+
+:root {
+/* change the values below to your chosen font(s) */
+--quote-font: "Almarai";
+}
+
+body {
+    background-color: #FCA6C9;
+    text-align: center;
+    font: 15px Arial, sans-serif;
+    margin-left: 40%;
+    margin-right: 40%;
+
+}
+.prophet {
+    border-image-width: 10px;
+    width: 40%;
+}
+.gospel {
+    list-style: upper-number inside;
+    text-align: justify;
+    font-weight: bold;
+    font-size: small;
+    line-height: 2;
+}
+
+.quote {
+    color: white;
+    line-height: 1.8;
+}
+
+#q2 {
+    font-family: "Times New Roman", Times, serif;
+}
+#q1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+a:hover {
+    color: white;
+}
