@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rock+Salt&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color: #F4F4F4;
     text-decoration: none;
+    padding: 35px;
 }
 
 
@@ -33,10 +36,16 @@ section{
 #background{
     height: 725px;
     background-color:#DAC3A4;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 body{
     background-color: #fcfbfb;
+    font-family: "Open Sans";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -48,10 +57,26 @@ nav a:hover {
     color: #d9c2a3;
 }
 
+.rivers-card, .camping-card, .rapids-card{
+    margin-top: 200px;
+}
+
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 .book, .join{
     background-color: #E5C9A4;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -61,33 +86,50 @@ nav a:hover {
 
 .msg{
     background-color:rgba(20,30,13, .7);
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 120px;
 }
 
 footer{
     background-color:rgba(20,30,13, .7);
     color: #E5C9A4;
+    padding: 25px 20px;
+    margin-top: 120px;
 }
 .logo{
     width: 80px;
 }
 
 .home-title{
-    color: black;
+    color: #E5C9A4;
+    font-family: "Rock Salt";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
     color: black;
+}
+h2{
+    margin: 0;
 }
 .msg h2{
     color: #FFFFFD;
 }
 .msg p{
     color: #FFFFFD;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a{
     color: #E5C9A4;
     text-decoration: none;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 footer a:hover{
@@ -98,6 +140,7 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -114,7 +157,12 @@ footer p:hover {
 }
 .mount{
     text-align: left;
+    margin-bottom: 50px;
 }
+#logo_link{
+    padding-top: 5px;
+}
+
 /* img {
     width: 80%;
     display: block;
