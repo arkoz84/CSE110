@@ -1,0 +1,20 @@
+.txt-title{
+    font-weight: bold
+    font-size: 100
+  }
+
+.img-cherry{
+    width: 50%;
+    float: left;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+.sha-square{
+    background-color: #555;
+    width: 50%;
+    float: left;
+    background-color: blue;
+}
