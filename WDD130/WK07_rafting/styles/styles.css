@@ -212,8 +212,8 @@ nav {
 }
 .home-grid2{
     display: grid;
-    grid-template-columns: 20px 1fr 1fr 1fr 20px;
-    grid-template-rows: 20px 40px 350px 40px 120px 40px 350px 40px 40px 40px 480px 10px;
+    grid-template-columns: 20px 0.33fr 0.33fr 0.33fr 20px;
+    grid-template-rows: 20px 40px 0.7fr 40px 40px 40px 0.7fr 40px 40px 40px 0.7fr 10px;
 
 }
 .rivers-card{
